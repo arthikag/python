@@ -1,0 +1,5 @@
+m1,m2,m3= map (int,input("Enter three nos").split(" "))
+print("marks are",m1+m2+m3)
+
+f1,f2=map(float,input("Enter two nos").split(","))
+print(f1-f2)
