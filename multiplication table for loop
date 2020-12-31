@@ -1,0 +1,6 @@
+#multiplication table of a number
+#FOR LOOP
+n=int (input("what multiplication table u want"))
+for i in range(1,17):
+  table=n*i
+  print(n,"*",i,"=",table)
