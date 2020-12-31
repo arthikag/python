@@ -1,0 +1,8 @@
+#multiplication table of a no.
+#WHILE LOOP
+n=int (input("what multiplication table u want"))
+i=1
+while(i<=16):
+  table=n*i
+  print(n,"*",i,"=",table)
+  i=i+1
