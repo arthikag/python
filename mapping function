@@ -1,0 +1,2 @@
+m1,m2,m3=map(int,input("Enter three nos").split(","))
+print("marks are",m1+m2+m3)
