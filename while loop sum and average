@@ -1,0 +1,10 @@
+#sum&avg of 1st n nos
+#WHILE LOOP
+n=int (input("enter no. of numbers"))
+totalnum=n
+sum=0
+while(n>=0):
+  sum+=n
+  n-=1
+  avg=sum/totalnum
+print("sum of 1st",totalnum,"numbers is",sum,"& average is",avg)
