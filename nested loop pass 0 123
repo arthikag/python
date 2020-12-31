@@ -1,0 +1,6 @@
+#nested loop
+for i in range(6):
+  print("pass",i,"-",end=" ")
+  for j in range(6):
+    print(j ,end=" ")
+  print("")
